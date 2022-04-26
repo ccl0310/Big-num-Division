@@ -119,6 +119,7 @@ public:
 			num = -num;
 		}
 		div(array,num,array1);
+		return *this;
 	}
 };
 
